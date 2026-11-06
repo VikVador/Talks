@@ -1,18 +1,9 @@
-# Slides
+# Talks
 
-The slides of the talks I give during my PhD (University of Liège, MAST and SAIL, visiting New York University, M²LInES),
-on understanding the ocean from observations with deep learning. One PDF per talk, newest first.
+A collection of the talks I gave during my PhD.
 
-## Talks
+| Date | Talk | Slides |
+|---|---|---|
+| | | |
 
-| Date | Meeting | Projects | Slides |
-|---|---|---|---|
-| | | | |
-
-<!-- The `presentation` skill adds one row per published talk, newest first, linking to talks/YYYY-MM-DD-meeting.pdf. -->
-
-## Notes
-
-- The decks are written in Markdown with [Marp](https://marp.app) and exported to PDF from a private repository;
-  the recap animations appear here as still frames.
-- Slide design inspired by the lectures of [Gilles Louppe](https://github.com/glouppe). Thanks, Gilles!
+<!-- One row per talk, newest first: | 2026-11-12 | Weekly meeting with Gilles Louppe | [PDF](talks/2026-11-12-weekly-gilles.pdf) | -->
