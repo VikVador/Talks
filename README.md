@@ -1,7 +1,8 @@
 <img src="assets/banner.svg" width="100%">
 
-| Date | Talk | Slides |
+| Date<br><img width="300" height="0"> | Name<br><img width="1600" height="0"> | Link<br><img width="180" height="0"> |
 |---|---|---|
 | | | |
 
-<!-- One row per talk, newest first: | 2026-11-12 | Weekly meeting with Gilles Louppe | [PDF](talks/2026-11-12-weekly-gilles.pdf) | -->
+<!-- One row per talk, newest first: | 2026-11-12 | Weekly meeting with Gilles Louppe | [PDF](talks/2026-11-12-weekly-gilles.pdf) |
+     The images in the header are invisible spacers that make the table span the full width: keep them. -->
