@@ -4,5 +4,6 @@
 |---|---|---|
 | | | |
 
-<!-- One row per talk, newest first: | 2026-11-12 | Weekly meeting with Gilles Louppe | [PDF](talks/2026-11-12-weekly-gilles.pdf) |
+<!-- One row per talk, newest first; each talk has its folder talks/YYYY-MM-DD-meeting/ (PDF + figures/):
+     | 2026-11-12 | [Weekly meeting with Gilles Louppe](talks/2026-11-12-weekly-gilles/) | [PDF](talks/2026-11-12-weekly-gilles/2026-11-12-weekly-gilles.pdf) |
      The images in the header are invisible spacers that make the table span the full width: keep them. -->
