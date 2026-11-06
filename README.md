@@ -1,6 +1,4 @@
-# Talks
-
-A collection of the talks I gave during my PhD.
+<img src="assets/banner.svg" width="100%">
 
 | Date | Talk | Slides |
 |---|---|---|
