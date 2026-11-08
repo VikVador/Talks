@@ -16,7 +16,7 @@ theme and palettes, the projects of the thesis with their recap videos, and the 
 | `logos/`         | university logos of the project slides                                                                 |
 | `team/`          | photos of the lab members and `people.yaml`, for the faces on the slides                               |
 | `animations/`    | HTML sources of the recap videos, `render.js` (to MP4) and `stills.js` (one image per step)             |
-| `scripts/`       | `build.sh` (HTML or PDF), `artifact.sh` (stage a deck as a Claude artifact), `publish.sh` (to `main`)   |
+| `scripts/`       | `build.sh` (HTML or PDF), `artifact.sh` (stage a deck as a Claude artifact), `publish.sh` (to `main`), `video-stills.js` (the PDF shows the stills of a video) |
 | `assets/`        | the banner of the READMEs and its generator                                                            |
 
 ## Make a talk
