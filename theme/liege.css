@@ -1,5 +1,0 @@
-/* @theme liege */
-/* Victor theme, Liège Teal palette. */
-@import 'base';
-
-:root { --primary:#1d3b4a; --highlight:#00707f; --secondary:#009ca6; --text:#26343a; --tint:rgba(0,112,127,.07); --alert:#c0392b; --dark-bg:#1d3b4a; }

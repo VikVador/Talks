@@ -1,5 +1,0 @@
-/* @theme slate */
-/* Victor theme, Slate & Cobalt palette. */
-@import 'base';
-
-:root { --primary:#334155; --highlight:#2563eb; --secondary:#64748b; --text:#1f2937; --tint:rgba(37,99,235,.06); --alert:#dc2626; --dark-bg:#1e293b; }

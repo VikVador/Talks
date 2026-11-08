@@ -1,5 +1,0 @@
-/* @theme violet */
-/* Victor theme, NYU Violet palette. */
-@import 'base';
-
-:root { --primary:#273850; --highlight:#6b3fa0; --secondary:#57068c; --text:#303030; --tint:rgba(107,63,160,.07); --alert:#b23a48; --dark-bg:#2d1b45; }

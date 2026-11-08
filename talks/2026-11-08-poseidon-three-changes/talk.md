@@ -3,6 +3,7 @@ marp: true
 theme: reef
 paginate: true
 math: mathjax
+lang: en
 title: "Poseidon: three changes for a better prior"
 author: Victor Mangeleer
 ---
@@ -11,6 +12,8 @@ author: Victor Mangeleer
 <!-- _paginate: false -->
 
 <video class="bg" src="../../media/title/background.mp4" poster="../../media/title/poster.jpg" autoplay loop muted playsinline></video>
+
+<div class="anim-credit">Credits: Gilles Louppe</div>
 
 <div class="t">Poseidon: Three Changes<br>for a better Prior</div>
 
