@@ -1,0 +1,5 @@
+/* @theme reef */
+/* Victor theme, Reef palette. */
+@import 'base';
+
+:root { --primary:#1d3557; --highlight:#457b9d; --secondary:#e07a5f; --text:#2a2f3a; --tint:rgba(69,123,157,.08); --alert:#c1121f; --dark-bg:#1d3557; }

@@ -1,0 +1,13 @@
+{
+  "name": "slides",
+  "private": true,
+  "description": "Victor Mangeleer's Markdown slide template (Marp) and meeting decks",
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "template": "bash scripts/build.sh template.md",
+    "palettes": "bash scripts/build.sh palettes.md"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.0.0"
+  }
+}

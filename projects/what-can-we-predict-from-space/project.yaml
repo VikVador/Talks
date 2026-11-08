@@ -1,0 +1,46 @@
+# A project of the thesis. The create-slides skill offers its recap (the videos below, in order).
+title: What can we predict from space?
+university: New York University
+logo: logos/nyu.png
+paper:            # optional: "Authors, title, year, link" of the project paper, for the Sources slide
+repository: VikVador/Heimdall   # the code repository: a session whose git remote is this one works on this project
+videos:           # recap videos in order: file (poster: same name, .jpg), source in animations/, stills (animations/stills.js)
+  - file: 1-questions.mp4
+    source: sq-nyu
+    same_px: 120
+    stills:
+      - 1-questions/01.jpg
+      - 1-questions/02.jpg
+      - 1-questions/03.jpg
+      - 1-questions/04.jpg
+      - 1-questions/05.jpg
+  - file: 2-methodology.mp4
+    source: methodology
+    stills:
+      - 2-methodology/01.jpg
+      - 2-methodology/02.jpg
+      - 2-methodology/03.jpg
+      - 2-methodology/04.jpg
+      - 2-methodology/05.jpg
+      - 2-methodology/06.jpg
+      - 2-methodology/07.jpg
+      - 2-methodology/08.jpg
+      - 2-methodology/09.jpg
+      - 2-methodology/10.jpg
+      - 2-methodology/11.jpg
+      - 2-methodology/12.jpg
+  - file: 3-architecture.mp4
+    source: architecture
+    stills:
+      - 3-architecture/01.jpg
+      - 3-architecture/02.jpg
+      - 3-architecture/03.jpg
+      - 3-architecture/04.jpg
+      - 3-architecture/05.jpg
+      - 3-architecture/06.jpg
+      - 3-architecture/07.jpg
+      - 3-architecture/08.jpg
+      - 3-architecture/09.jpg
+      - 3-architecture/10.jpg
+      - 3-architecture/11.jpg
+      - 3-architecture/12.jpg
