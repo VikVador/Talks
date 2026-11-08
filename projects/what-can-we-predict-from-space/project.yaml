@@ -3,6 +3,7 @@ title: What can we predict from space?
 university: New York University
 logo: logos/nyu.png
 paper:            # optional: "Authors, title, year, link" of the project paper, for the Sources slide
+repository: VikVador/Heimdall   # the code repository: a session whose git remote is this one works on this project
 videos:           # recap videos in order: file (poster: same name, .jpg), source in animations/, stills (animations/stills.js)
   - file: 1-questions.mp4
     source: sq-nyu

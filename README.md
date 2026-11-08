@@ -16,7 +16,7 @@ them.
 | `palettes.md`    | the four palettes side by side                                                                         |
 | `theme/`         | `base.css` (layout and slide classes), one CSS per palette, the Arimo font (SIL OFL), `video-controls.js` |
 | `media/`         | shared media: the title animation (credit: Gilles Louppe) and its poster, the figure placeholder       |
-| `projects/`      | one folder per project: recap videos, posters, stills (for the PDF) and `project.yaml`                  |
+| `projects/`      | one folder per project: recap videos, posters, stills (for the PDF) and `project.yaml` (title, university, logo, paper, code repository, videos) |
 | `logos/`         | university logos of the project slides                                                                 |
 | `team/`          | photos of the lab members and `people.yaml`, for the faces on the slides                               |
 | `animations/`    | HTML sources of the recap videos, `render.js` (to MP4) and `stills.js` (one image per step)             |
