@@ -43,7 +43,7 @@ jobs:
             mkdir -p "$site/$dir"; cp "$dir/talk.html" "$site/$dir"
             if [ -d "$dir/figures" ]; then cp -r "$dir/figures" "$site/$dir"; fi
           done
-          for shared in media projects logos; do
+          for shared in media projects logos team; do
             if [ -d "../$shared" ]; then cp -r "../$shared" "$site/"; fi
           done
           cp -r theme/fonts "$site/theme/"
