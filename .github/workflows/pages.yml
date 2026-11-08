@@ -1,4 +1,4 @@
-# Builds every talk (talks/*/talk.md) with Marp and publishes them on GitHub Pages, at each push on main.
+# Builds every talks/*/talk.md with Marp and publishes it on GitHub Pages, at each push on main.
 name: Pages
 
 on:
@@ -28,28 +28,15 @@ jobs:
       - name: Build the talks
         run: |
           mkdir -p site
-          cp -r media theme assets site/
+          cp -r media theme site/
           for md in talks/*/talk.md; do
             dir=$(dirname "$md")
             mkdir -p "site/$dir"
-            [ -d "$dir/figures" ] && cp -r "$dir/figures" "site/$dir/"
-            npx --yes @marp-team/marp-cli@4.5.1 --no-stdin --html --allow-local-files \
-              --theme-set theme -o "site/$dir/talk.html" -- "$md"
+            if [ -d "$dir/figures" ]; then cp -r "$dir/figures" "site/$dir/"; fi
+            npx --yes @marp-team/marp-cli@4.5.1 --no-stdin --html --allow-local-files --theme-set theme -o "site/$dir/talk.html" -- "$md"
           done
-
-      - name: Build the index
-        run: |
-          {
-            echo '<!doctype html><meta charset="utf-8"><title>Talks</title>'
-            echo '<body style="font-family:Inter,Arial,sans-serif;max-width:760px;margin:40px auto;padding:0 16px">'
-            echo '<img src="assets/banner.svg" width="100%"><ul>'
-            for md in $(ls -r talks/*/talk.md); do
-              dir=$(dirname "$md"); name=$(basename "$dir")
-              title=$(sed -n 's/^title: *"\{0,1\}\([^"]*\)"\{0,1\}$/\1/p' "$md" | head -1)
-              echo "<li><a href=\"$dir/talk.html\">${name:0:10} · ${title}</a></li>"
-            done
-            echo '</ul></body>'
-          } > site/index.html
+          # The root of the site sends to the list of talks, the README of the repository
+          echo '<meta http-equiv="refresh" content="0; url=https://github.com/VikVador/Talks">' > site/index.html
 
       - uses: actions/upload-pages-artifact@v3
         with:
