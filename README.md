@@ -14,6 +14,7 @@ theme and palettes, the projects of the thesis with their recap videos, and the 
 | `media/`         | shared media: the title animation (credit: Gilles Louppe) and its poster, the figure placeholder       |
 | `projects/`      | one folder per project: recap videos, posters, stills (for the PDF) and `project.yaml`                  |
 | `logos/`         | university logos of the project slides                                                                 |
+| `team/`          | photos of the lab members and `people.yaml`, for the faces on the slides                               |
 | `animations/`    | HTML sources of the recap videos, `render.js` (to MP4) and `stills.js` (one image per step)             |
 | `scripts/`       | `build.sh` (HTML or PDF), `artifact.sh` (stage a deck as a Claude artifact), `publish.sh` (to `main`)   |
 | `assets/`        | the banner of the READMEs and its generator                                                            |

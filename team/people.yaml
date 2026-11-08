@@ -1,0 +1,231 @@
+# Team directory: first name, last name, photo, affiliation, team.
+# Teams: SAIL (Gilles Louppe), MAST (Marilaure Grégoire), M2LInES (Laure Zanna).
+# Photos: 300x300 crops from the public lab websites.
+
+- first: Gilles
+  last: Louppe
+  affiliation: ULiège
+  team: SAIL
+  photo: team/gilles-louppe.jpg
+
+- first: Gérôme
+  last: Andry
+  affiliation: ULiège
+  team: SAIL
+  photo: team/gerome-andry.jpg
+
+- first: Sacha
+  last: Lewin
+  affiliation: ULiège
+  team: SAIL
+  photo: team/sacha-lewin.jpg
+
+- first: Adrien
+  last: De Voeght
+  affiliation: ULiège
+  team: SAIL
+  photo: team/adrien-de-voeght.jpg
+
+- first: Lénea
+  last: Silva Luís
+  affiliation: ULiège
+  team: SAIL
+  photo: team/lenea-silva-luis.jpg
+
+- first: Elise
+  last: Faulx
+  affiliation: ULiège
+  team: SAIL
+  photo: team/elise-faulx.jpg
+
+- first: Fanny
+  last: Bodart
+  affiliation: ULiège
+  team: SAIL
+  photo: team/fanny-bodart.jpg
+
+- first: Thomas
+  last: Savary
+  affiliation: ULiège
+  team: SAIL
+  photo: team/thomas-savary.jpg
+
+- first: Sacha
+  last: Peters
+  affiliation: ULiège
+  team: SAIL
+  photo: team/sacha-peters.jpg
+
+- first: Yakup Emre
+  last: Şahin
+  affiliation: ULiège
+  team: SAIL
+  photo: team/yakup-emre-sahin.jpg
+
+- first: Victor
+  last: Mangeleer
+  affiliation: ULiège
+  team: SAIL, MAST
+  photo: team/victor-mangeleer.jpg
+
+- first: Marilaure
+  last: Grégoire
+  affiliation: ULiège
+  team: MAST
+  photo: team/marilaure-gregoire.jpg
+
+- first: Federica
+  last: Adobbati
+  affiliation: ULiège
+  team: MAST
+  photo: team/federica-adobbati.jpg
+
+- first: Jean-François
+  last: Grailet
+  affiliation: ULiège
+  team: MAST
+  photo: team/jean-francois-grailet.jpg
+
+- first: Evgeny
+  last: Ivanov
+  affiliation: ULiège
+  team: MAST
+  photo: team/evgeny-ivanov.jpg
+
+- first: Luc
+  last: Vandenbulcke
+  affiliation: ULiège
+  team: MAST
+  photo: team/luc-vandenbulcke.jpg
+
+- first: Polina
+  last: Verezemskaya
+  affiliation: ULiège
+  team: MAST
+  photo: team/polina-verezemskaya.jpg
+
+- first: Haolin
+  last: Yu
+  affiliation: ULiège
+  team: MAST
+  photo: team/haolin-yu.jpg
+
+- first: Lauranne
+  last: Alaerts
+  affiliation: ULiège
+  team: MAST
+  photo: team/lauranne-alaerts.jpg
+
+- first: Séverine
+  last: Chevalier
+  affiliation: ULiège
+  team: MAST
+  photo: team/severine-chevalier.jpg
+
+- first: Mathurin
+  last: Choblet
+  affiliation: ULiège
+  team: MAST
+  photo: team/mathurin-choblet.jpg
+
+- first: Ilya
+  last: Drozd
+  affiliation: ULiège
+  team: MAST
+  photo: team/ilya-drozd.jpg
+
+- first: Loïc
+  last: Macé
+  affiliation: ULiège
+  team: MAST
+  photo: team/loic-mace.jpg
+
+- first: Riana
+  last: Ny Randresihaja
+  affiliation: ULiège
+  team: MAST
+  photo: team/riana-ny-randresihaja.jpg
+
+- first: Lev
+  last: Malcev
+  affiliation: ULiège
+  team: MAST
+  photo: team/lev-malcev.jpg
+
+- first: Laure
+  last: Zanna
+  affiliation: NYU
+  team: M2LInES
+  photo: team/laure-zanna.jpg
+
+- first: Pavel
+  last: Perezhogin
+  affiliation: NYU
+  team: M2LInES
+  photo: team/pavel-perezhogin.jpg
+
+- first: Jiarong
+  last: Wu
+  affiliation: NYU
+  team: M2LInES
+  photo: team/jiarong-wu.jpg
+
+- first: Yuan
+  last: Yuan
+  affiliation: NYU
+  team: M2LInES
+  photo: team/yuan-yuan.jpg
+
+- first: Jia-Rui
+  last: Shi
+  affiliation: NYU
+  team: M2LInES
+  photo: team/jia-rui-shi.jpg
+
+- first: Fabrizio
+  last: Falasca
+  affiliation: NYU
+  team: M2LInES
+  photo: team/fabrizio-falasca.jpg
+
+- first: Renaud
+  last: Falga
+  affiliation: NYU
+  team: M2LInES
+  photo: team/renaud-falga.jpg
+
+- first: Linus
+  last: Vogt
+  affiliation: NYU
+  team: M2LInES
+  photo: team/linus-vogt.jpg
+
+- first: Adam
+  last: Subel
+  affiliation: NYU
+  team: M2LInES
+  photo: team/adam-subel.jpg
+
+- first: Qi
+  last: Liu
+  affiliation: NYU
+  team: M2LInES
+  photo: team/qi-liu.jpg
+
+- first: Gosha
+  last: Geogdzhayev
+  affiliation: NYU
+  team: M2LInES
+  photo: team/gosha-geogdzhayev.jpg
+
+- first: Matt
+  last: Pudig
+  affiliation: NYU
+  team: M2LInES
+  photo: team/matt-pudig.jpg
+
+- first: Johanna
+  last: Goldman
+  affiliation: NYU
+  team: M2LInES
+  photo: team/johanna-goldman.jpg
