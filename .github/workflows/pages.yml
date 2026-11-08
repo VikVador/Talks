@@ -34,6 +34,8 @@ jobs:
             mkdir -p "site/$dir"
             if [ -d "$dir/figures" ]; then cp -r "$dir/figures" "site/$dir/"; fi
             npx --yes @marp-team/marp-cli@4.5.1 --no-stdin --html --allow-local-files --theme-set theme -o "site/$dir/talk.html" -- "$md"
+            # The play/pause bar of the videos, as scripts/build.sh of Talks-template adds it
+            node -e 'const fs = require("fs"), [out, js] = process.argv.slice(1); const html = fs.readFileSync(out, "utf8"); fs.writeFileSync(out, html.replace("</body>", "<script>\n" + fs.readFileSync(js, "utf8") + "\n</script></body>"));' "site/$dir/talk.html" theme/video-controls.js
           done
           # The root of the site sends to the list of talks, the README of the repository
           echo '<meta http-equiv="refresh" content="0; url=https://github.com/VikVador/Talks">' > site/index.html
