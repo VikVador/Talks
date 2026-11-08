@@ -1,0 +1,29 @@
+# A project of the thesis. The create-slides skill offers its recap (the videos below, in order).
+title: Neural emulator of Black Sea dynamics
+university: University of Liège
+logo: logos/uliege.png
+paper:            # optional: "Authors, title, year, link" of the project paper, for the Sources slide
+videos:           # recap videos in order: file (poster: same name, .jpg), source in animations/, stills (animations/stills.js)
+  - file: 1-questions.mp4
+    source: sq-uliege
+    stills:
+      - 1-questions/01.jpg
+      - 1-questions/02.jpg
+      - 1-questions/03.jpg
+      - 1-questions/04.jpg
+      - 1-questions/05.jpg
+  - file: 2-architecture.mp4
+    source: architecture
+    stills:
+      - 2-architecture/01.jpg
+      - 2-architecture/02.jpg
+      - 2-architecture/03.jpg
+      - 2-architecture/04.jpg
+      - 2-architecture/05.jpg
+      - 2-architecture/06.jpg
+      - 2-architecture/07.jpg
+      - 2-architecture/08.jpg
+      - 2-architecture/09.jpg
+      - 2-architecture/10.jpg
+      - 2-architecture/11.jpg
+      - 2-architecture/12.jpg

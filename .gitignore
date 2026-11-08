@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+# Built decks: rebuild with scripts/build.sh
+/*.html
+/*.pdf
+*.pdf-src.md
+animations/out/
+# Talk drafts stay local, at the path they get on main once published (scripts/publish.sh)
+talks/
+# Colleagues' photos: kept out of this public repository
+team/
+__pycache__/

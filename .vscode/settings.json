@@ -1,0 +1,11 @@
+{
+  "markdown.marp.themes": [
+    "./theme/base.css",
+    "./theme/reef.css",
+    "./theme/slate.css",
+    "./theme/liege.css",
+    "./theme/violet.css"
+  ],
+  "markdown.marp.enableHtml": true,
+  "markdown.marp.mathTypesetting": "mathjax"
+}
