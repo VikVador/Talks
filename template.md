@@ -306,7 +306,7 @@ We sampled the first prior, a ViT with patches of $4 \times 4$ ($234$ M paramete
 
 </div>
 
-<div class="rule top"><b>Experiment 2/3 · result slide.</b> Class <code>result</code>, no title. The figure starts on the <b>sub-title line</b> and takes all the room left (up to the full text width); the <b>caption</b> sits right under it; <b>exactly one box</b> ends at a fixed height, just above the page number. The room for the figure is about <b>1080 × 350 px</b>: draw the figure for it (<code>figsize</code> ≈ 9.8 × 3.2 in at dpi 110, see the <b>create-figure</b> skill), one figure per message, never a small multi-row figure. Box and caption: one line each.</div>
+<div class="rule top"><b>Experiment 2/3 · result slide.</b> Class <code>result</code>, no title. The figure starts on the <b>sub-title line</b> and takes all the room left (up to the full text width); the <b>caption</b> sits right under it; <b>exactly one box</b> ends at a fixed height, just above the page number. The room for the figure is about <b>1080 × 350 px</b>: draw the figure for it (<code>figsize</code> ≈ 9.8 × 3.2 in, PNG at dpi 256, see the <b>create-figure</b> skill), one figure per message, never a small multi-row figure. Box and caption: one line each.</div>
 
 ---
 
