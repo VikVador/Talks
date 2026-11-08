@@ -10,6 +10,8 @@ author: Victor Mangeleer
 <!-- _class: title -->
 <!-- _paginate: false -->
 
+<video class="bg" src="../../media/title/background.mp4" poster="../../media/title/poster.jpg" autoplay loop muted playsinline></video>
+
 <div class="t">Poseidon: Three Changes<br>for a better Prior</div>
 
 <div class="info">
