@@ -1,5 +1,5 @@
-# Builds every talks/*/talk.md with the theme and build.sh of the template branch, and publishes the talks on
-# GitHub Pages, at each push on main (scripts/publish.sh of the template branch pushes here).
+# Builds every talks/*/talk.md with scripts/build.sh and the theme of this branch, and publishes the talks on
+# GitHub Pages, at each push on main (scripts/publish.sh moves a draft to talks/ and pushes).
 name: Pages
 
 on:
@@ -22,30 +22,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/checkout@v4
-        with:
-          ref: template
-          path: _template
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Build the talks
         run: |
-          cd _template
           npm ci
-          cp -r ../talks .
           for md in talks/*/talk.md; do bash scripts/build.sh "$md"; done
-          # The site: each talk (page and figures), the shared files published on main, and the font
-          site=../site; mkdir -p "$site/theme"
+          # The site: each talk (page and figures), the shared files at their paths, and the font
+          site=site; mkdir -p "$site/theme"
           for dir in talks/*/; do
             mkdir -p "$site/$dir"; cp "$dir/talk.html" "$site/$dir"
             if [ -d "$dir/figures" ]; then cp -r "$dir/figures" "$site/$dir"; fi
           done
-          for shared in media projects logos team; do
-            if [ -d "../$shared" ]; then cp -r "../$shared" "$site/"; fi
-          done
+          cp -r media projects logos team "$site/"
           cp -r theme/fonts "$site/theme/"
           # The root of the site sends to the list of talks, the README of the repository
           echo '<meta http-equiv="refresh" content="0; url=https://github.com/VikVador/Talks">' > "$site/index.html"

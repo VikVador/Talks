@@ -1,1 +1,12 @@
+node_modules/
 .DS_Store
+__pycache__/
+# Built decks: rebuild with scripts/build.sh
+/*.html
+/*.pdf
+*.pdf-src.md
+talks/*/*.html
+talks/*/*.pdf
+animations/out/
+# Drafts stay local until scripts/publish.sh moves them to talks/
+drafts/
