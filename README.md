@@ -6,6 +6,7 @@ them.
 
 ## Talks
 
+- 2026-11-13: [Progress meeting: Heimdall, Neptune and Poseidon](https://vikvador.github.io/Talks/talks/2026-11-13-progress-meeting/talk.html)
 - 2026-11-08: [Heimdall: seven encoders trained, latents on Torch](https://vikvador.github.io/Talks/talks/2026-11-08-encoders/talk.html)
 - 2026-11-08: [Poseidon: three changes for a better prior](https://vikvador.github.io/Talks/talks/2026-11-08-poseidon-three-changes/talk.html)
 
